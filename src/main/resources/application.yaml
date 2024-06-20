@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: diceware
+
+server:
+  port: 18181
+  servlet:
+    context-path: /diceware
+
+
+diceware:
+  word-list: word-list.txt
